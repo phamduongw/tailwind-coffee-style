@@ -4,7 +4,7 @@
   "description": "Coffee Style",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
   },
   "keywords": [],
   "author": "phamduongw",
