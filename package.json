@@ -1,0 +1,15 @@
+{
+  "name": "tailwindcss-coffee-style",
+  "version": "1.0.0",
+  "description": "Coffee Style",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+  },
+  "keywords": [],
+  "author": "phamduongw",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
